@@ -4,10 +4,9 @@ export const Card = () => {
         <div className="bg-card-bg bg-no-repeat bg-cover h-32 w-full rounded-t-2xl"></div>
         <div>
           <div> 
-            <p className="font-bold tracking-wide antialiased">Victor Crest</p>
-            <p>26</p>
+            <p><span className="font-bold tracking-wide antialiased text-blue-desat">Victor Crest</span><span className="text-blue-dark">26</span></p>
           </div>
-          <div>London</div>
+          <div className="text-sm tracking-wider text-blue-dark">London</div>
         </div>
         <div className="border border-solid border-t-1 border-grey-dark border-opacity-25 p-5">
           <div className="flex flex-row">
