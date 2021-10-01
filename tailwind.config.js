@@ -39,11 +39,11 @@ module.exports = {
       '5': '5px'
     },
     backgroundPosition: {
-      'blobPosition': 'left -20rem top -30rem, right -13rem bottom -40rem',
+      'blobPosition': 'right 50vw bottom 40vh, left 50vw top 40vh',
     },
     extend: {
       backgroundImage: {
-        'bg-blobs': "url('../assets/img/bg-pattern-top.svg')",
+        'blobs': "url('../assets/img/bg-pattern-top.svg'), url('../assets/img/bg-pattern-bottom.svg')",
         'card-bg': "url('../assets/img/bg-pattern-card.svg')",
         'person-bg': "url('../assets/img/image-victor.jpg')"
       }
