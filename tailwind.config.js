@@ -18,10 +18,10 @@ module.exports = {
       }
     },
     fontSize: {
-      xs: ['0.6rem', {
+      xs: ['0.6em', {
         letterSpacing: '0.083rem'
       }],
-      sm: ['0.9rem', '1.1'],
+      sm: ['0.78em', '1.1'],
       base: ['18px', '22px'],
     },
     fontFamily: {
@@ -30,6 +30,9 @@ module.exports = {
     boxShadow: {
       DEFAULT: '0px 50px 100px -20px rgba(8, 70, 94, 0.504835)'
     },
+    borderWidth: {
+      '5': '5px'
+    },
     backgroundPosition: {
       'blobPosition': 'left -20rem top -30rem, right -13rem bottom -40rem',
     },
@@ -37,6 +40,7 @@ module.exports = {
       backgroundImage: {
         'bg-blobs': "url('../assets/img/bg-pattern-top.svg')",
         'card-bg': "url('../assets/img/bg-pattern-card.svg')",
+        'person-bg': "url('../assets/img/image-victor.jpg')"
       }
     }
 
