@@ -19,6 +19,13 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Khumbh Sans", "sans-serif"]
+    },
+    extend: {
+      backgroundImage: {
+        'top-left-blob': "url('../assets/img/bg-pattern-top.svg')",
+        'bottom-right-blob': "url('../assets/img/bg-pattern-bottom.svg')",
+        'card-bg': "url('../assets/img/bg-pattern-card.svg')",
+      }
     }
   },
   variants: {
