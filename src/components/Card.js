@@ -1,7 +1,8 @@
 export const Card = () => {
   return (
-    <div className="bg-white w-1/4">
+    <div className="bg-white w-1/4 rounded-2xl">
       <div>
+        <div className="bg-card-bg bg-no-repeat bg-cover h-32 w-full rounded-t-2xl"></div>
         <div>
           <p className="font-bold tracking-wide antialiased">Victor Crest</p>
         </div>
