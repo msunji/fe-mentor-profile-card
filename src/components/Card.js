@@ -1,7 +1,11 @@
+import victor from '../assets/img/image-victor.jpg';
+
 export const Card = () => {
   return (
     <div className="bg-white w-1/4 rounded-2xl h-auto shadow">
-        <div className="bg-card-bg bg-no-repeat bg-cover h-32 w-full rounded-t-2xl"></div>
+        <div className="bg-card-bg bg-no-repeat bg-cover h-32 w-full rounded-t-2xl relative">
+            <img className="border-solid border-5 border-white rounded-full absolute left-1/2 -bottom-1/2 transform -translate-x-1/2 -translate-y-1/4" src={victor} alt="User profile" />
+        </div>
         <div>
           <div> 
             <p><span className="font-bold tracking-wide antialiased text-blue-desat">Victor Crest</span><span className="text-blue-dark">26</span></p>
