@@ -12,6 +12,9 @@ module.exports = {
       },
       grey: {
         dark: "hsl(0, 0%, 59%)"
+      },
+      white: {
+        DEFAULT: "hsl(0,0%,100%)"
       }
     },
     fontFamily: {
