@@ -1,9 +1,11 @@
 import { Card } from './components/Card';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <main className="w-full h-screen flex items-center justify-center bg-no-repeat bg-blobs bg-blobPosition lg:bg-blobPosition-lg">
+    <main className="flex w-full min-h-screen bg-no-repeat bg-blobs bg-blobPosition flex-col">
       <Card />
+      <Footer />
     </main>
   );
 }
