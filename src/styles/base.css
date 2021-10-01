@@ -16,6 +16,7 @@
   }
   body {
     @apply bg-cyan-dark;
+    @apply text-base;
   }
 }
 
