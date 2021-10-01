@@ -17,16 +17,29 @@ module.exports = {
         DEFAULT: "hsl(0,0%,100%)"
       }
     },
+    fontSize: {
+      xs: ['0.6rem', {
+        letterSpacing: '0.083rem'
+      }],
+      sm: ['0.9rem', '1.1'],
+      base: ['18px', '22px'],
+    },
     fontFamily: {
-      sans: ["Khumbh Sans", "sans-serif"]
+      sans: ['"Khumbh Sans"', "sans-serif"]
+    },
+    boxShadow: {
+      DEFAULT: '0px 50px 100px -20px rgba(8, 70, 94, 0.504835)'
+    },
+    backgroundPosition: {
+      'blobPosition': 'left -20rem top -30rem, right -13rem bottom -40rem',
     },
     extend: {
       backgroundImage: {
-        'top-left-blob': "url('../assets/img/bg-pattern-top.svg')",
-        'bottom-right-blob': "url('../assets/img/bg-pattern-bottom.svg')",
+        'bg-blobs': "url('../assets/img/bg-pattern-top.svg')",
         'card-bg': "url('../assets/img/bg-pattern-card.svg')",
       }
     }
+
   },
   variants: {
     extend: {},
