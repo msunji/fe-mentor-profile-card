@@ -6,13 +6,13 @@ export const Card = () => {
         <div className="bg-card-bg bg-no-repeat bg-cover h-32 w-full rounded-t-2xl relative">
             <img className="border-solid border-5 border-white rounded-full absolute left-1/2 -bottom-1/2 transform -translate-x-1/2 -translate-y-1/4" width="96" height="96" src={victor} alt="User profile" />
         </div>
-        <div className="text-center pt-14 pb-8">
-          <div> 
-            <p><span className="font-bold tracking-wide antialiased text-blue-desat">Victor Crest</span><span className="text-blue-dark">26</span></p>
+        <div className="text-center pt-14 pb-6">
+          <div className="mb-2.5"> 
+            <p><span className="font-bold tracking-wide antialiased text-blue-desat m-2">Victor Crest</span><span className="text-blue-dark">26</span></p>
           </div>
           <div className="text-sm text-blue-dark">London</div>
         </div>
-        <div className="border border-solid border-t-1 border-grey-dark border-opacity-25 p-5">
+        <div className="border border-solid border-t-1 border-grey-dark border-opacity-20 p-5">
           <div className="flex flex-row">
             <div className="stats-col">
               <p className="font-bold tracking-wider">80k</p>

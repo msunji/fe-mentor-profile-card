@@ -27,10 +27,15 @@ module.exports = {
     fontFamily: {
       sans: ['"Khumbh Sans"', "sans-serif"]
     },
+    fontWeight: {
+      normal: 400,
+      bold: 700,
+    },
     boxShadow: {
       DEFAULT: '0px 50px 100px -20px rgba(8, 70, 94, 0.504835)'
     },
     borderWidth: {
+      '1': '1px',
       '5': '5px'
     },
     backgroundPosition: {
