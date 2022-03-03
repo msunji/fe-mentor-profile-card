@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">View Challenge</a> | <a href="https://fe-mentor-profile-card-psi.vercel.app/">View Live Site</a>
-</div>
+</p>
 
 <br />
 
