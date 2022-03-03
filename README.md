@@ -10,3 +10,13 @@
 <br />
 
 ---
+
+## Quick Notes/Overview
+
+There's not really much to be said about this project, other than the fact that it was a pretty good way to get myself to learn Tailwind CSS. Moving forward, I'd like to get more familiar with Tailwind, so I might come to back to this project to refactor some code and clean it up a bit more.
+
+## Tech Stack
+- React, bootstrapped with CRA
+- Fontsource to self-host fonts instead of using Google Fonts' CDN
+- Tailwind CSS for styling
+- Hosted on Vercel
